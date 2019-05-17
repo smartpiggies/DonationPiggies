@@ -11,15 +11,7 @@ import error from "Routes/error";
 
 import "Assets/css/vendor/bootstrap.min.css";
 import "react-perfect-scrollbar/dist/css/styles.css";
-import "Assets/css/sass/themes/gogo.light.purple.scss";
-/*
-color options : 
-	 'light.purple'		'dark.purple'
-	 'light.blue'		'dark.blue'
-	 'light.green'		'dark.green'
-	 'light.orange'		'dark.orange'
-	 'light.red'		'dark.red'
-*/
+import "Assets/css/sass/themes/sp.piggy.pink.scss";
 
 class App extends Component {
   render() {
