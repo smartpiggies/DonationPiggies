@@ -1,0 +1,29 @@
+Getting this template to load:
+
+Add .babelrc file
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/react"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
+
+yarn add @babel/react
+yarn add @babel/plugin-proposal-class-properties
+
+
+add `import 'regenerator-runtime/runtime';`
+
+to sagas.js
+
+import { all } from 'redux-saga/effects';
+import 'regenerator-runtime/runtime';
+
+export default function* rootSaga(getState) {
+  yield all([
+  ]);
+}
